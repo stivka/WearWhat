@@ -60,6 +60,7 @@ public class CurrentWeatherTests {
     @BeforeClass
     public static void setUpClass() throws IOException {
         config = new Config();
+        //config.setMock(false); //comment out if you don't want to use mock values.
         if (config.isMock()) {
             weatherRepo = Mockito.mock(Weather.class);
         } else {
