@@ -7,7 +7,7 @@ import org.junit.Test;
 import org.json.*;
 import static junit.framework.TestCase.fail;
 import static org.junit.Assert.*;
-import static org.mockito.Mockito.mock;
+
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
@@ -100,12 +100,7 @@ public class WeatherForecastTests {
                 e1.printStackTrace();
             }
         }
-       /*
-        @Override
-        protected void succeeded(Description d) {
-            System.out.println(testName.getMethodName() + "SUCESSS");
-        }
-        */
+
     };
 
     @Test(timeout = 10000)
