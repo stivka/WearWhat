@@ -36,8 +36,7 @@ public class HttpUtilityTests {
     }
 
 
-    @Rule
-    public TestName testName = new TestName();
+   
 
     @Rule
     public TestWatcher watchman = new TestWatcher() {
