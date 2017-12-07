@@ -98,8 +98,6 @@ public class WeatherRepository implements Weather {
         }
         throw new WeatherReportNotFoundException("Missing interface implementation");
     }
-
-
 }
 
 
